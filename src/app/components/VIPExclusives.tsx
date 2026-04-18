@@ -1,4 +1,9 @@
 import { LucideIcon, Users, BookOpen, Utensils, Shirt, Plane } from 'lucide-react';
+import { siteContent } from '../../content/siteContent';
+
+const { vipExclusives } = siteContent;
+
+const ICONS: LucideIcon[] = [Users, BookOpen, Utensils, Shirt, Plane];
 
 interface ExclusiveCardProps {
   icon: LucideIcon;
@@ -28,34 +33,6 @@ function ExclusiveCard({ icon: Icon, title, description }: ExclusiveCardProps) {
 }
 
 export function VIPExclusives() {
-  const exclusives = [
-    {
-      icon: Users,
-      title: "1-Year Kemetic Yoga Online Community",
-      description: "2x weekly live classes for ongoing alignment. Practice doesn't end when you return—it deepens."
-    },
-    {
-      icon: BookOpen,
-      title: "The Monthly Sankofa Travel Journal",
-      description: "A living integration space for cultural grounding. Your journey documented, your insights cultivated."
-    },
-    {
-      icon: Utensils,
-      title: "Private VIP Dinner",
-      description: "Intimate evening with Queen Afua and Master Yirser Ra Hotep. Not a photo op—a true exchange."
-    },
-    {
-      icon: Shirt,
-      title: "Branded Ancestral Garment",
-      description: "A physical marker of your passage and return. Wear it as recognition of what you now carry."
-    },
-    {
-      icon: Plane,
-      title: "Future Travel Credit",
-      description: "Up to $500 toward future journeys. Because once you return, you'll want to continue going."
-    }
-  ];
-
   return (
     <section className="py-32 px-6 bg-[#1a1a1d]">
       <div className="max-w-7xl mx-auto">
@@ -63,25 +40,25 @@ export function VIPExclusives() {
         <div className="max-w-4xl mx-auto text-center mb-20">
           <div className="inline-flex items-center gap-3 mb-8">
             <div className="w-12 h-[1px] bg-[#c67456]"></div>
-            <span className="text-[#c67456] tracking-[0.2em] uppercase text-sm">VIP Exclusives</span>
+            <span className="text-[#c67456] tracking-[0.2em] uppercase text-sm">{vipExclusives.sectionLabel}</span>
             <div className="w-12 h-[1px] bg-[#c67456]"></div>
           </div>
 
           <h2 className="text-4xl md:text-6xl text-[#f5f5f0] mb-6 font-display font-light">
-            What <span className="text-[#c9965b] italic">Continuity</span> Looks Like
+            {vipExclusives.headingMain} <span className="text-[#c9965b] italic">{vipExclusives.headingItalic}</span> {vipExclusives.headingSuffix}
           </h2>
 
           <p className="text-xl text-[#a09f99]">
-            Five pillars that extend your passage into lasting practice.
+            {vipExclusives.subheadline}
           </p>
         </div>
 
         {/* Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {exclusives.map((exclusive, index) => (
+          {vipExclusives.exclusives.map((exclusive, index) => (
             <ExclusiveCard
               key={index}
-              icon={exclusive.icon}
+              icon={ICONS[index] ?? Users}
               title={exclusive.title}
               description={exclusive.description}
             />

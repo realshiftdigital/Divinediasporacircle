@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "eyebrow": "Salvador, Brazil 2026",
+    "headlinePart1": "You Are Not Traveling to Bahia.",
+    "headlineItalic": "You Are Returning.",
+    "subheadline": "An invitation to the Divine Diaspora Circle—the exclusive VIP immersion in Salvador, Brazil.",
+    "ctaButton": "Claim Your Seat in the Circle",
+    "heroImageDesktop": "/joice-cardoso-Bahai-salvador4.png",
+    "heroImageMobile": "/joice-cardoso-Bahai-salvador-mobile-3.png"
+  },
+  "theAnchor": {
+    "sectionLabel": "The Foundation",
+    "headingMain": "Every Journey Begins with a",
+    "headingItalic": "Foundation",
+    "body1": "The Base Journey at $2,995 includes your sacred passage: airfare, accommodations, daily Kemetic Yoga practice, cultural immersion, and the transformative presence of Master Yirser Ra Hotep and Queen Afua.",
+    "body2": "It is complete. It is intentional. It is the anchor.",
+    "body3": "But for those called to go deeper—",
+    "body4": "For those who recognize this not as a trip, but as continuity—the VIP experience extends your passage beyond the physical journey into a year-long practice of integration, community, and ongoing alignment.",
+    "body5": "This is the Complete Path."
+  },
+  "vipExclusives": {
+    "sectionLabel": "VIP Exclusives",
+    "headingMain": "What",
+    "headingItalic": "Continuity",
+    "headingSuffix": "Looks Like",
+    "subheadline": "Five pillars that extend your passage into lasting practice.",
+    "exclusives": [
+      {
+        "title": "1-Year Kemetic Yoga Online Community",
+        "description": "2x weekly live classes for ongoing alignment. Practice doesn't end when you return—it deepens."
+      },
+      {
+        "title": "The Monthly Sankofa Travel Journal",
+        "description": "A living integration space for cultural grounding. Your journey documented, your insights cultivated."
+      },
+      {
+        "title": "Private VIP Dinner",
+        "description": "Intimate evening with Queen Afua and Master Yirser Ra Hotep. Not a photo op—a true exchange."
+      },
+      {
+        "title": "Branded Ancestral Garment",
+        "description": "A physical marker of your passage and return. Wear it as recognition of what you now carry."
+      },
+      {
+        "title": "Future Travel Credit",
+        "description": "Up to $500 toward future journeys. Because once you return, you'll want to continue going."
+      }
+    ]
+  },
+  "theMasters": {
+    "sectionLabel": "Your Guides",
+    "headingMain": "The",
+    "headingItalic": "Masters",
+    "master1": {
+      "name": "Master Yirser Ra Hotep",
+      "title": "Founder, YogaSkills Method",
+      "bio": "For over four decades, Master Yirser has been a pillar in the practice and teaching of Kemetic Yoga. His method weaves ancient Egyptian wisdom with breath, geometry, and deep alignment. He does not perform—he transmits. And under his guidance, the body becomes a vessel for ancestral memory.",
+      "image": "/masterhotep4.jpg"
+    },
+    "master2": {
+      "name": "Queen Afua",
+      "title": "Holistic Health Visionary & Author",
+      "bio": "A global wellness elder and author of Sacred Woman, Queen Afua has devoted her life to the spiritual and physical healing of Black women and communities worldwide. Her presence is medicine. Her teaching is ceremony. And in her company, healing becomes not just personal—but collective.",
+      "image": "/Queen-Afua-1.jpg"
+    }
+  },
+  "investment": {
+    "sectionLabel": "Investment",
+    "heading": "The Complete VIP Experience",
+    "subheadline": "All the elements of the Base Journey plus one year of ongoing practice, integration, and intimate access.",
+    "pricingLabel": "Total Investment",
+    "price": "$3,600",
+    "paymentBadge": "✦ Payment Plan Available ✦",
+    "checklistItems": [
+      "Complete Base Journey ($2,995 value)",
+      "1-Year Kemetic Yoga Online Community",
+      "Monthly Sankofa Travel Journal",
+      "Private VIP Dinner Experience",
+      "Branded Ancestral Garment",
+      "$500 Future Travel Credit"
+    ],
+    "ctaButton": "Secure Your VIP Experience",
+    "finePrint": "Limited to 12 VIP participants. First-come basis."
+  },
+  "finalInvitation": {
+    "headingMain": "This is",
+    "headingItalic": "Recognition",
+    "body1": "If something in you stirred while reading this...",
+    "body2": "You already know why.",
+    "accentLine": "Join us in Bahia.",
+    "ctaButton": "Begin Your Return",
+    "footerText": "THE DIVINE DIASPORA CIRCLE · SALVADOR, BRAZIL 2026"
+  }
+}

@@ -1,0 +1,108 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: site_content
+    label: Site Content
+    files:
+      - name: site_content
+        label: Site Content
+        file: src/content/siteContent.json
+        fields:
+          - label: Hero Section
+            name: hero
+            widget: object
+            fields:
+              - { label: Eyebrow Text, name: eyebrow, widget: string }
+              - { label: Headline Part 1, name: headlinePart1, widget: string }
+              - { label: Headline Italic, name: headlineItalic, widget: string }
+              - { label: Subheadline, name: subheadline, widget: text }
+              - { label: CTA Button Text, name: ctaButton, widget: string }
+              - { label: Hero Background Image (Desktop), name: heroImageDesktop, widget: image }
+              - { label: Hero Background Image (Mobile), name: heroImageMobile, widget: image }
+
+          - label: The Anchor Section
+            name: theAnchor
+            widget: object
+            fields:
+              - { label: Section Label, name: sectionLabel, widget: string }
+              - { label: Heading Main, name: headingMain, widget: string }
+              - { label: Heading Italic, name: headingItalic, widget: string }
+              - { label: Body Paragraph 1, name: body1, widget: text }
+              - { label: Body Paragraph 2, name: body2, widget: text }
+              - { label: Body Paragraph 3, name: body3, widget: text }
+              - { label: Body Paragraph 4, name: body4, widget: text }
+              - { label: Accent Line, name: body5, widget: text }
+
+          - label: VIP Exclusives Section
+            name: vipExclusives
+            widget: object
+            fields:
+              - { label: Section Label, name: sectionLabel, widget: string }
+              - { label: Heading Main, name: headingMain, widget: string }
+              - { label: Heading Italic, name: headingItalic, widget: string }
+              - { label: Heading Suffix, name: headingSuffix, widget: string }
+              - { label: Subheadline, name: subheadline, widget: text }
+              - label: Exclusives
+                name: exclusives
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+
+          - label: The Masters Section
+            name: theMasters
+            widget: object
+            fields:
+              - { label: Section Label, name: sectionLabel, widget: string }
+              - { label: Heading Main, name: headingMain, widget: string }
+              - { label: Heading Italic, name: headingItalic, widget: string }
+              - label: Master Yirser Ra Hotep
+                name: master1
+                widget: object
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Bio, name: bio, widget: text }
+                  - { label: Portrait Image, name: image, widget: image }
+              - label: Queen Afua
+                name: master2
+                widget: object
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Bio, name: bio, widget: text }
+                  - { label: Portrait Image, name: image, widget: image }
+
+          - label: Investment Section
+            name: investment
+            widget: object
+            fields:
+              - { label: Section Label, name: sectionLabel, widget: string }
+              - { label: Heading, name: heading, widget: string }
+              - { label: Subheadline, name: subheadline, widget: text }
+              - { label: Pricing Label, name: pricingLabel, widget: string }
+              - { label: Price, name: price, widget: string }
+              - { label: Payment Badge Text, name: paymentBadge, widget: string }
+              - label: Checklist Items
+                name: checklistItems
+                widget: list
+                field: { label: Item, name: item, widget: string }
+              - { label: CTA Button Text, name: ctaButton, widget: string }
+              - { label: Fine Print, name: finePrint, widget: text }
+
+          - label: Final Invitation Section
+            name: finalInvitation
+            widget: object
+            fields:
+              - { label: Heading Main, name: headingMain, widget: string }
+              - { label: Heading Italic, name: headingItalic, widget: string }
+              - { label: Body Paragraph 1, name: body1, widget: text }
+              - { label: Body Paragraph 2, name: body2, widget: text }
+              - { label: Accent Line, name: accentLine, widget: text }
+              - { label: CTA Button Text, name: ctaButton, widget: string }
+              - { label: Footer Text, name: footerText, widget: string }
