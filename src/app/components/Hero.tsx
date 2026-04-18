@@ -4,7 +4,7 @@ export function Hero() {
       {/* Background image */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/joice-cardoso-Bahai-salvador2.png"
+        src="/joice-cardoso-Bahai-salvador4.png"
         alt=""
         aria-hidden="true"
         className="absolute inset-0 w-full h-full object-cover object-left"
