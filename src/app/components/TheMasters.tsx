@@ -18,15 +18,13 @@ export function TheMasters() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Master Yirser Ra Hotep */}
           <div className="space-y-6">
-            <div className="aspect-[4/5] bg-[#1a1a1d] border border-[#c9965b]/20 relative overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center space-y-4 p-8">
-                  <div className="w-24 h-24 mx-auto rounded-full bg-[#c9965b]/10 flex items-center justify-center">
-                    <span className="text-4xl text-[#c9965b]">🕉</span>
-                  </div>
-                  <p className="text-[#a09f99] text-sm tracking-wider">PORTRAIT</p>
-                </div>
-              </div>
+            <div className="aspect-[4/5] border border-[#c9965b]/20 relative overflow-hidden">
+              <img
+                src="/images/masterhotep4.jpg"
+                alt="Master Yirser Ra Hotep"
+                className="absolute inset-0 w-full h-full object-cover"
+                style={{ objectPosition: "top" }}
+              />
             </div>
 
             <div>
@@ -43,15 +41,13 @@ export function TheMasters() {
 
           {/* Queen Afua */}
           <div className="space-y-6">
-            <div className="aspect-[4/5] bg-[#1a1a1d] border border-[#c9965b]/20 relative overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center space-y-4 p-8">
-                  <div className="w-24 h-24 mx-auto rounded-full bg-[#c67456]/10 flex items-center justify-center">
-                    <span className="text-4xl text-[#c67456]">👑</span>
-                  </div>
-                  <p className="text-[#a09f99] text-sm tracking-wider">PORTRAIT</p>
-                </div>
-              </div>
+            <div className="aspect-[4/5] border border-[#c9965b]/20 relative overflow-hidden">
+              <img
+                src="/images/Queen-Afua-1.jpg"
+                alt="Queen Afua"
+                className="absolute inset-0 w-full h-full object-cover"
+                style={{ objectPosition: "top" }}
+              />
             </div>
 
             <div>
