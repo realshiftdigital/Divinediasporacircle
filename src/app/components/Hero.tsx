@@ -4,7 +4,7 @@ const { hero } = siteContent;
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-end md:items-center justify-center overflow-hidden">
       {/* Background image — desktop crop vs mobile crop */}
       <picture className="absolute inset-0 w-full h-full">
         <source media="(min-width: 768px)" srcSet={hero.heroImageDesktop} />
@@ -33,7 +33,7 @@ export function Hero() {
       <div className="absolute top-1/4 left-0 w-1 h-32 bg-gradient-to-b from-[#c9965b] to-transparent"></div>
       <div className="absolute bottom-1/4 right-0 w-1 h-32 bg-gradient-to-t from-[#c67456] to-transparent"></div>
 
-      <div className="relative z-10 max-w-5xl mx-auto px-6 py-24 text-center">
+      <div className="relative z-10 max-w-5xl mx-auto px-6 pt-24 pb-16 md:py-24 text-center">
         {/* Small eyebrow */}
         <div className="inline-flex items-center gap-3 mb-8">
           <div className="w-12 h-[1px] bg-[#c9965b]"></div>
