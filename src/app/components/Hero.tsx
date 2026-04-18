@@ -2,13 +2,16 @@ export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('https://source.unsplash.com/featured/?salvador,bahia,brazil')` }}
-      ></div>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="https://source.unsplash.com/featured/?salvador,bahia,brazil"
+        alt=""
+        aria-hidden="true"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
 
       {/* Dark overlay for text legibility */}
-      <div className="absolute inset-0 bg-black/65"></div>
+      <div className="absolute inset-0 bg-black/60"></div>
 
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
