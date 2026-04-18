@@ -1,6 +1,15 @@
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url('https://source.unsplash.com/featured/?salvador,bahia,brazil')` }}
+      ></div>
+
+      {/* Dark overlay for text legibility */}
+      <div className="absolute inset-0 bg-black/65"></div>
+
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
