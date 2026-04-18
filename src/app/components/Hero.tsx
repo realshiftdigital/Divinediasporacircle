@@ -19,7 +19,7 @@ export function Hero() {
       </picture>
 
       {/* Dark overlay for text legibility */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-black/70 md:bg-black/58"></div>
 
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
