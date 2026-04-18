@@ -21,10 +21,7 @@ export function Hero() {
           <div className="w-12 h-[1px] bg-[#c9965b]"></div>
         </div>
 
-        <h1 className="text-5xl md:text-7xl lg:text-8xl mb-8 text-[#f5f5f0] tracking-tight max-w-4xl mx-auto" style={{
-          fontWeight: 300,
-          lineHeight: 1.1
-        }}>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl mb-8 text-[#f5f5f0] tracking-tight max-w-4xl mx-auto font-display font-light leading-[1.1]">
           You Are Not Traveling<br />to Bahia.{' '}
           <span className="italic text-[#c9965b]">You Are<br />Returning.</span>
         </h1>
