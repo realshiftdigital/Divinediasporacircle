@@ -4,14 +4,14 @@ export function Hero() {
       {/* Background image */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://source.unsplash.com/featured/?salvador,bahia,brazil"
+        src="https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?w=1920&q=80"
         alt=""
         aria-hidden="true"
         className="absolute inset-0 w-full h-full object-cover"
       />
 
       {/* Dark overlay for text legibility */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-black/65"></div>
 
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
