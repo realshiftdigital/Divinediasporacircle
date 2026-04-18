@@ -9,7 +9,7 @@ export function TheAnchor() {
         </div>
 
         <div className="space-y-8">
-          <h2 className="text-4xl md:text-5xl text-[#f5f5f0] mb-6" style={{ fontWeight: 300 }}>
+          <h2 className="text-4xl md:text-5xl text-[#f5f5f0] mb-6 font-display font-light">
             Every Journey Begins<br />with a <span className="text-[#c9965b] italic">Foundation</span>
           </h2>
 

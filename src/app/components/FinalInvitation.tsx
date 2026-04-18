@@ -17,7 +17,7 @@ export function FinalInvitation() {
           <div className="w-3 h-3 rotate-45 bg-[#c9965b]"></div>
         </div>
 
-        <h2 className="text-5xl md:text-7xl text-[#f5f5f0] mb-12" style={{ fontWeight: 300 }}>
+        <h2 className="text-5xl md:text-7xl text-[#f5f5f0] mb-12 font-display font-light">
           This is <span className="text-[#c9965b] italic">Recognition</span>
         </h2>
 

@@ -10,7 +10,7 @@ export function TheMasters() {
             <div className="w-12 h-[1px] bg-[#c9965b]"></div>
           </div>
 
-          <h2 className="text-4xl md:text-6xl text-[#f5f5f0]" style={{ fontWeight: 300 }}>
+          <h2 className="text-4xl md:text-6xl text-[#f5f5f0] font-display font-light">
             The <span className="text-[#c9965b] italic">Masters</span>
           </h2>
         </div>
@@ -28,7 +28,7 @@ export function TheMasters() {
             </div>
 
             <div>
-              <h3 className="text-3xl text-[#f5f5f0] mb-2" style={{ fontWeight: 400 }}>
+              <h3 className="text-3xl text-[#f5f5f0] mb-2 font-display font-normal">
                 Master Yirser Ra Hotep
               </h3>
               <p className="text-[#c9965b] mb-4 tracking-wide">Founder, YogaSkills Method</p>
@@ -51,7 +51,7 @@ export function TheMasters() {
             </div>
 
             <div>
-              <h3 className="text-3xl text-[#f5f5f0] mb-2" style={{ fontWeight: 400 }}>
+              <h3 className="text-3xl text-[#f5f5f0] mb-2 font-display font-normal">
                 Queen Afua
               </h3>
               <p className="text-[#c9965b] mb-4 tracking-wide">Holistic Health Visionary & Author</p>

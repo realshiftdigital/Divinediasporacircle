@@ -16,7 +16,7 @@ function ExclusiveCard({ icon: Icon, title, description }: ExclusiveCardProps) {
         <Icon className="w-10 h-10 text-[#c9965b]" strokeWidth={1.5} />
       </div>
 
-      <h3 className="text-2xl text-[#f5f5f0] mb-4" style={{ fontWeight: 400 }}>
+      <h3 className="text-2xl text-[#f5f5f0] mb-4 font-display font-normal">
         {title}
       </h3>
 
@@ -67,7 +67,7 @@ export function VIPExclusives() {
             <div className="w-12 h-[1px] bg-[#c67456]"></div>
           </div>
 
-          <h2 className="text-4xl md:text-6xl text-[#f5f5f0] mb-6" style={{ fontWeight: 300 }}>
+          <h2 className="text-4xl md:text-6xl text-[#f5f5f0] mb-6 font-display font-light">
             What <span className="text-[#c9965b] italic">Continuity</span> Looks Like
           </h2>
 

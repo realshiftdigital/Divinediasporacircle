@@ -9,7 +9,7 @@ export function Investment() {
           <div className="w-12 h-[1px] bg-[#c67456]"></div>
         </div>
 
-        <h2 className="text-4xl md:text-5xl text-[#f5f5f0] mb-8" style={{ fontWeight: 300 }}>
+        <h2 className="text-4xl md:text-5xl text-[#f5f5f0] mb-8 font-display font-light">
           The Complete VIP Experience
         </h2>
 
@@ -27,7 +27,7 @@ export function Investment() {
             <p className="text-[#c9965b] mb-4 tracking-wider">Total Investment</p>
 
             <div className="mb-8">
-              <span className="text-7xl md:text-8xl text-[#f5f5f0]" style={{ fontWeight: 300 }}>
+              <span className="text-7xl md:text-8xl text-[#f5f5f0] font-display font-light">
                 $3,600
               </span>
             </div>
