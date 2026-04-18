@@ -1,14 +1,18 @@
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image */}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src="/joice-cardoso-Bahai-salvador4.png"
-        alt=""
-        aria-hidden="true"
-        className="absolute inset-0 w-full h-full object-cover object-center"
-      />
+      {/* Background image — desktop crop vs mobile crop */}
+      <picture className="absolute inset-0 w-full h-full">
+        <source media="(min-width: 768px)" srcSet="/joice-cardoso-Bahai-salvador4.png" />
+        <source media="(max-width: 767px)" srcSet="/joice-cardoso-Bahai-salvador-mobile-3.png" />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/joice-cardoso-Bahai-salvador4.png"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+        />
+      </picture>
 
       {/* Dark overlay for text legibility */}
       <div className="absolute inset-0 bg-black/50"></div>
