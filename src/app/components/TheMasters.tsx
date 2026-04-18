@@ -20,7 +20,7 @@ export function TheMasters() {
           <div className="space-y-6">
             <div className="aspect-[4/5] border border-[#c9965b]/20 relative overflow-hidden">
               <img
-                src="/images/masterhotep4.jpg"
+                src="/masterhotep4.jpg"
                 alt="Master Yirser Ra Hotep"
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{ objectPosition: "top" }}
@@ -43,7 +43,7 @@ export function TheMasters() {
           <div className="space-y-6">
             <div className="aspect-[4/5] border border-[#c9965b]/20 relative overflow-hidden">
               <img
-                src="/images/Queen-Afua-1.jpg"
+                src="/Queen-Afua-1.jpg"
                 alt="Queen Afua"
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{ objectPosition: "top" }}
