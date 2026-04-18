@@ -7,7 +7,7 @@ export function Hero() {
         src="/joice-cardoso-Bahai-salvador.jpg"
         alt=""
         aria-hidden="true"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-left"
       />
 
       {/* Dark overlay for text legibility */}
